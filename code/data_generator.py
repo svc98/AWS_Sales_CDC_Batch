@@ -8,7 +8,6 @@ from config.config import configuration
 
 
 
-# dynamodb = boto3.resource('dynamodb')
 BASE_URL = 'https://randomuser.me/api?nat=US'
 session = boto3.Session(profile_name='default',
                         aws_access_key_id=configuration.get("AWS_ACCESS_KEY"),
